@@ -8,6 +8,33 @@ public class TraineeBean {
     private String sno;
     private String phone;
     private String email;
+    private String beginTime;
+    private String endTime;
+    private String isDel;
+
+    public String getBeginTime() {
+        return beginTime;
+    }
+
+    public void setBeginTime(String beginTime) {
+        this.beginTime = beginTime;
+    }
+
+    public String getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(String endTime) {
+        this.endTime = endTime;
+    }
+
+    public String getIsDel() {
+        return isDel;
+    }
+
+    public void setIsDel(String isDel) {
+        this.isDel = isDel;
+    }
 
     public int getId() {
         return id;
